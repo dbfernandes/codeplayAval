@@ -1,0 +1,4 @@
+Levenshtein distance between 3048.spy and 3979->780
+Levenshtein distance between 3465.spy and 3979->1028
+Levenshtein distance between 3979.spy and 3979->0
+Levenshtein distance between 4431.spy and 3979->3079

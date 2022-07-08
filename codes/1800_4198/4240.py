@@ -1,0 +1,5 @@
+vr=int(input())
+sr=int(input())
+dr=int(input())
+vf= (vr**2+sr**2+dr**2)/(vr+sr+dr)
+print(round(vf,7))

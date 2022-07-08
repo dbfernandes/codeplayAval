@@ -1,0 +1,11 @@
+Levenshtein distance between 2343.spy and 4258->38
+Levenshtein distance between 3979.spy and 4258->170
+Levenshtein distance between 4033.spy and 4258->39
+Levenshtein distance between 4044.spy and 4258->20
+Levenshtein distance between 4140.spy and 4258->37
+Levenshtein distance between 4161.spy and 4258->28
+Levenshtein distance between 4212.spy and 4258->22
+Levenshtein distance between 4258.spy and 4258->0
+Levenshtein distance between 4354.spy and 4258->83
+Levenshtein distance between 4431.spy and 4258->24
+Levenshtein distance between 4443.spy and 4258->105
