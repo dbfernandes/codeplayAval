@@ -1,7 +1,0 @@
-Levenshtein distance between 3048.spy and 4443->241
-Levenshtein distance between 3465.spy and 4443->340
-Levenshtein distance between 3979.spy and 4443->199
-Levenshtein distance between 4044.spy and 4443->193
-Levenshtein distance between 4354.spy and 4443->213
-Levenshtein distance between 4431.spy and 4443->297
-Levenshtein distance between 4443.spy and 4443->0
