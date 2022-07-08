@@ -20,7 +20,7 @@ if not os.path.exists(csv_folder):
 
 trabalhos = {}
 
-fieldnames = ['id_aluno', 'logins', 'tamanho_logs_listas', 'tamanho_logs_avaliacoes', 'total_testes_listas', 'total_erros_sintaticos_testes_listas', 'total_submissoes_listas', 'total_submissoes_incorretas_listas', 'total_testes_avaliacoes', 'total_erros_sintaticos_testes_avaliacoes', 'total_submissoes_avaliacoes', 'total_submissoes_incorretas_avaliacoes', 'indice_procrastinacao_listas']
+fieldnames = ['id_aluno', 'logins', 'tamanho_logs_listas', 'tamanho_logs_avaliacoes', 'total_testes_listas', 'total_testes_avaliacoes', 'total_erros_sintaticos_testes_listas', 'total_erros_sintaticos_testes_avaliacoes', 'total_submissoes_listas', 'total_submissoes_avaliacoes', 'total_submissoes_incorretas_listas', 'total_submissoes_incorretas_avaliacoes', 'indice_procrastinacao_listas']
 
 for turma in os.listdir(dataset_path):
   print(turma)
@@ -41,10 +41,14 @@ for turma in os.listdir(dataset_path):
         trabalhos[trabalho] = {
           'type': '',
           'start': '',
-          'end': ''
+          'end': '',
+          'lab0': False
         }
 
         for data in assessment_data:
+
+          if "assessment title: Lab 0 " in data:
+            trabalhos[trabalho]['lab0'] = True         
 
           if "---- exercise " in data:
             total_exercicios_turma = total_exercicios_turma + 1
@@ -84,12 +88,12 @@ for turma in os.listdir(dataset_path):
         'tamanho_logs_listas': 0,
         'tamanho_logs_avaliacoes': 0,
         'total_testes_listas': 0,
+        'total_testes_avaliacoes': 0,        
         'total_erros_sintaticos_testes_listas': 0,
+        'total_erros_sintaticos_testes_avaliacoes': 0,        
         'total_submissoes_listas': 0,
+        'total_submissoes_avaliacoes': 0,        
         'total_submissoes_incorretas_listas': 0,
-        'total_testes_avaliacoes': 0,
-        'total_erros_sintaticos_testes_avaliacoes': 0,
-        'total_submissoes_avaliacoes': 0,
         'total_submissoes_incorretas_avaliacoes': 0,   
         'indice_procrastinacao_listas': 0
       }      
@@ -120,6 +124,10 @@ for turma in os.listdir(dataset_path):
             codemirror_data = codemirror_file.readlines()
             id_trabalho = filename.split(".")[0].split("_")[0]
             # print(filename, id_trabalho, aluno)
+
+            # Ignorando os Labs 0 (de ambientação)
+            if (trabalhos[id_trabalho]['lab0'] == True):
+              continue
 
             ##### DATA: tamanho dos logs #####   
             log_size = len(codemirror_data)
@@ -166,6 +174,8 @@ for turma in os.listdir(dataset_path):
                   aluno_data['total_submissoes_incorretas_avaliacoes'] = aluno_data['total_submissoes_incorretas_avaliacoes'] + 1          
 
       aluno_data['indice_procrastinacao_listas'] = round(minutos_entre_submissao_e_fim_do_trabalho / aluno_data['total_submissoes_listas'], 2) if aluno_data['total_submissoes_listas'] > 0 else 0
+      if (aluno_data['indice_procrastinacao_listas'] > 20000):
+        print(aluno_data['indice_procrastinacao_listas'])
 
       csv_turma_writer.writerow(aluno_data)
 
