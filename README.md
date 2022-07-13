@@ -12,7 +12,7 @@ Features extraídas:
 
 - `tamanho_logs_avaliacoes`: número total de registros de logs gerados pelo aluno durante a resolução de avaliaçãos práticas.
 
-- `total_testes_listas`: número total de testes feitos pelo aluno durante a resolução de avaliaçãos práticas.
+- `total_testes_listas`: número total de testes feitos pelo aluno durante a resolução de listas de exercícios.
 
 - `total_testes_avaliacoes`: número total de testes feitos pelo aluno durante a resolução de avaliaçãos práticas.
 
