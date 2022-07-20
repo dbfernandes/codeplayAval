@@ -23,7 +23,7 @@ trabalhos = {}
 fieldnames = ['id_aluno', 'logins', 'tamanho_logs_listas', 'tamanho_logs_avaliacoes', 'total_testes_listas', 'total_testes_avaliacoes', 'total_erros_sintaticos_testes_listas', 'total_erros_sintaticos_testes_avaliacoes', 'total_submissoes_listas', 'total_submissoes_avaliacoes', 'total_submissoes_incorretas_listas', 'total_submissoes_incorretas_avaliacoes', 'indice_procrastinacao_listas']
 
 for turma in os.listdir(dataset_path):
-  print(turma)
+  print("Turma:",turma)
   total_trabalhos_turma = 0
   total_exercicios_turma = 0
 
@@ -79,8 +79,10 @@ for turma in os.listdir(dataset_path):
       if aluno in monitores_e_professores:
         continue
 
-      minutos_entre_submissao_e_fim_do_trabalho = 0
+      minutos_entre_inicio_do_trabalho_e_submissao = 0
+      minutos_total_trabalho = 0
       quantidade_total_exercicios = 0
+      procrastinacao = 0
 
       aluno_data = {
         'id_aluno': aluno,
@@ -161,7 +163,13 @@ for turma in os.listdir(dataset_path):
                   aluno_data['total_submissoes_listas'] = aluno_data['total_submissoes_listas'] + 1
                   hora_submissao = log.split(".")[0]
                   hora_submissao = datetime.strptime(hora_submissao, "%Y-%m-%d %H:%M:%S")
-                  minutos_entre_submissao_e_fim_do_trabalho = minutos_entre_submissao_e_fim_do_trabalho + (trabalhos[id_trabalho]['end'] - hora_submissao).total_seconds()/60                  
+                  minutos_totais_entre_inicio_do_trabalho_e_submissao = (hora_submissao - trabalhos[id_trabalho]['start']).total_seconds()/60                                    
+                  minutos_totais_trabalho = (trabalhos[id_trabalho]['end'] - trabalhos[id_trabalho]['start']).total_seconds()/60                                    
+                  procrastinacao = procrastinacao + minutos_totais_entre_inicio_do_trabalho_e_submissao/minutos_totais_trabalho
+                  # print(minutos_totais_entre_inicio_do_trabalho_e_submissao, minutos_totais_trabalho, procrastinacao)
+
+                  #hora_submissao = datetime.strptime(hora_submissao, "%Y-%m-%d %H:%M:%S")
+                  #minutos_entre_submissao_e_fim_do_trabalho = minutos_entre_submissao_e_fim_do_trabalho + (trabalhos[id_trabalho]['end'] - hora_submissao).total_seconds()/60                                    
                 else:
                   aluno_data['total_submissoes_avaliacoes'] = aluno_data['total_submissoes_avaliacoes'] + 1
 
@@ -173,9 +181,8 @@ for turma in os.listdir(dataset_path):
                 else:
                   aluno_data['total_submissoes_incorretas_avaliacoes'] = aluno_data['total_submissoes_incorretas_avaliacoes'] + 1          
 
-      aluno_data['indice_procrastinacao_listas'] = round(minutos_entre_submissao_e_fim_do_trabalho / aluno_data['total_submissoes_listas'], 2) if aluno_data['total_submissoes_listas'] > 0 else 0
-      if (aluno_data['indice_procrastinacao_listas'] > 20000):
-        print(aluno_data['indice_procrastinacao_listas'])
+      aluno_data['indice_procrastinacao_listas'] = round(procrastinacao / aluno_data['total_submissoes_listas'], 2) if aluno_data['total_submissoes_listas'] > 0 else 1
+      print(aluno_data['indice_procrastinacao_listas'])
 
       csv_turma_writer.writerow(aluno_data)
 
