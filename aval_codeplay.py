@@ -4,13 +4,13 @@ import csv
 import sys
 
 if len(sys.argv) != 3:
-    print("pyton3 aval_codeplay.py <ano> <semestre>")
+    print("python3 aval_codeplay.py <ano> <semestre>")
     quit()
 
 ano = sys.argv[1]
 semestre = sys.argv[2]
 
-dataset_path = f"./{ano}-{semestre}"
+dataset_path = f"./dataset/{ano}-{semestre}"
 csv_folder = f"./csv-{ano}-{semestre}"
 
 monitores_e_professores = [4394,3018,3285,4618,4620,1364,4964,3818,4591,4965,5333,4963,2453,1071,6091,1083,6527,2083,6280,3009,6370,3853,6283,105,1997,6276,6296,5994,3500,7096,2087,7078,5724,670,7095,2805,7079,14,6985,6961,7077,13,7081]  
