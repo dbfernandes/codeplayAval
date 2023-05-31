@@ -2568,7 +2568,7 @@ id,titulo,qtd_exercicios,peso
 2657,Primeira Prova,1,1
 2658,Desafio (Alocação dinâmica e realloc),14,0
 2659,Lista 06 - Funções II,3,4
-2660,Lista 03 - Estrutura Condicional ,10,1
+2660,Lista 03 - Estrutura Condicional,10,1
 2661,Lista 04 - Estrutura Condicional ,10,1
 2662,Lista 04 - Estrutura Condicional 2,10,1
 2663,Segunda Prova,1,1
@@ -2764,7 +2764,7 @@ id,titulo,qtd_exercicios,peso
 2855,TP06 (Filas e Pilhas - Vetor e Encadeadas),3,1
 2856,Lab 1 - Variáveis e Estrutura Sequencial,24,1
 2857,TP07 (listas circulares e duplamente encadeadas),2,1
-2858,Vetores e Matrizes,9,1
+2858,Vetores e Matrizes,10,1
 2859,Lab 2 - Estrutura Condicional Composta,20,1
 2860,TP 1 (Trabalho prático 1),1,0
 2861,Lista 07 - vetores e ponteiros,5,4
@@ -3280,7 +3280,7 @@ id,titulo,qtd_exercicios,peso
 3388,Extras 1 - Variáveis e Estrutura Sequencial,11,0
 3389,Lista 01 - Entrada e saída,9,1
 3390,Lista 02 - Entrada e saída,10,1
-3391,Lista 03 - Condicionais,10,1
+3391,Lista 03 - Basico de Condicionais,10,1
 3392,Lista 04 - Condicionais,10,1
 3393,Lista 05 - Condicionais,10,1
 3394,Lista 06 - Comando de repetição for,10,1
@@ -3357,7 +3357,7 @@ id,titulo,qtd_exercicios,peso
 3465,TP 01: Variáveis e Estrutura Sequencial,3,1
 3466,Lab 2 - Estrutura Condicional Composta,13,1
 3467,Extra 2 - Estrutura Condicional Composta,7,0
-3468,L05 - Laços de repetição,5,3
+3468,L05 - Laços de repetição,6,3
 3469,T01 - Primeiros passos,5,1
 3470,T02 - Aritmética,4,1
 3471,T03 - Exercícios variados,4,1
@@ -3980,7 +3980,7 @@ id,titulo,qtd_exercicios,peso
 4103,Extras 4 - Repetição por Condição,9,0
 4104,TP07 - Tratamento de exceção,5,1
 4105,Entrada e saída dados,2,1
-4106,Entrada e saída de dados,10,1
+4106,Entrada e saída de dados,10,0
 4107,Segunda Lista de Exercícios,15,3
 4108,TP15 - Herança & Polimorfismo,6,1
 4109,T03 - Árvore binária de busca (1),3,1
@@ -4140,13 +4140,13 @@ id,titulo,qtd_exercicios,peso
 4266,TP 03 – Condicionais Encadeadas (if/elif) - 14/02,3,1
 4267,TP 02:  Estrutura Condicional  - 14/02,3,1
 4268,Avaliação - Variáveis e Estrutura Sequencial,3,1
-4269,Avaliação - Estrutura de Repetição (while),2,1
+4269,Avaliação - Estrutura de Repetição (while),3,0
 4270,Lab 7 - Matrizes,10,1
 4271,Extra 7,8,0
 4272,Exercício extra de ordenação,1,1
 4273,Aula Prática - 17/02/2023 (vale nota),1,1
 4274,TP 05: Vetores e Strings,3,1
-4275,Lab 0 – Primeiros passos com o Python - 2023,16,1
+4275,Lab 0 – Primeiros passos com o Python - 2023,16,0
 4276,Lab 2 - Estrutura Condicional Composta,13,1
 4277,Lab 3 - Estrutura Condicional Encadeada,10,1
 4278,Prova Final,3,1
@@ -4179,7 +4179,7 @@ id,titulo,qtd_exercicios,peso
 4305,Prova Final em Assembly do MIPS,4,1
 4306,Introdução ao SQL,10,1
 4307,Avaliação Parcial 6,5,1
-4308,Estruturas condicionais,10,1
+4308,Estruturas condicionais,10,0
 4309,TP7: Matrizes,3,3
 4310,Prova Final,3,1
 4312,Prova Final,3,1
@@ -4235,10 +4235,10 @@ id,titulo,qtd_exercicios,peso
 4362,7. Ponteiros,5,1
 4363,8. Alocação Dinâmica,5,1
 4364,Lista 2,11,4
-4365,Exercícios de teste,2,1
+4365,Exercícios de teste,2,0
 4366,Lab 4 – Repetição por Condição (while),12,1
 4367,Lab 4 – Repetição por Condição (while),12,1
-4368,1. Operações básicas ,8,1
+4368,1. Operações básicas ,12,1
 4369,2. Estruturas condicionais,7,1
 4370,Lista 3 - 25 questões e ganham 10,50,1
 4371,Lab 1.1 - Variáveis e Estrutura Sequencial,10,1
@@ -4256,16 +4256,16 @@ id,titulo,qtd_exercicios,peso
 4383,Lab 0 – Primeiros passos com o Python - 2020,16,0
 4384,TP 1: Variáveis e Estrutura Sequencial,3,1
 4385,Lab 0 – Primeiros passos com o Python,16,1
-4386,Exercícios extras,12,0
+4386,Exercícios extras,11,0
 4387,Lab 0 – Primeiros passos com o Python - 2023,16,0
-4388,Exercícios sobre condicionais,7,1
+4388,Exercícios sobre condicionais,7,0
 4389,Lab 0 – Primeiros passos com o Python,16,1
 4390,L01 - Primeiros passos,5,2
 4391,L02 - Segundos passos,4,2
 4392,Lab 1 - Variáveis e Estrutura Sequencial - 2020,12,1
 4393,Primeiros Passos em Haskell,7,1
 4394,Primeiros Passos em Haskell,7,1
-4395,Introdução a Linguagem Python,10,1
+4395,Introdução a Linguagem Python,10,0
 4396,Extras 1 - Variáveis e Estrutura Sequencial (2023),11,1
 4397,Lab 1 - Variáveis e Estrutura Sequencial,12,1
 4398,Lab 1 - Variáveis e Estrutura Sequencial,12,1
@@ -4282,7 +4282,321 @@ id,titulo,qtd_exercicios,peso
 4409,Lab 1 - Variáveis e Estrutura Sequencial,12,1
 4410,Extras 1 - Variáveis e Estrutura Sequencial (2020),11,1
 4411,Lab 1 - Variáveis e Estrutura Sequencial,12,1
-4412,Extras 1 - Variáveis e Estrutura Sequencial (2020),11,1
+4412,Extras 1 - Variáveis e Estrutura Sequencial (2020),11,0
 4413,Lab 1.2 - Variáveis e Estrutura Sequencial,10,1
 4414,Lab 0 - Primeiros passos com o Python,16,1
 4415,Teste Dart,1,1
+4416,Experimentando o ambiente e primeiros exercícios,5,1
+4417,1a Lista. Segundo bloco de questões,6,2
+4418,Condicionais I,10,0
+4419,Lab 1 - Variáveis e Estrutura Sequencial,12,1
+4420,Extras 1 - Variáveis e Estrutura Sequencial (2020),11,1
+4421,Extras 1 - Variáveis e Estrutura Sequencial (2020),11,1
+4422,Extras 1 - Variáveis e Estrutura Sequencial (2020),11,1
+4423,L03 - Aritmética,4,1
+4424,L03 - Exercícios variados,4,2
+4425,Simulado 01 - Variáveis e Estrutura Sequencial,3,1
+4426,Revisão 3* Prova,9,1
+4427,Terceira Lista (Python),14,1
+4428,Terceira Lista (Python),14,1
+4429,TP 01: Variáveis e Estrutura Sequencial,4,1
+4430,ss,1,1
+4431,Decisão,4,1
+4432,Lab 1 - Variáveis e Estrutura Sequencial,12,1
+4433,L04 - Laços de repetição,5,4
+4434,TP 01: Variáveis e Estrutura Sequencial (V0.1),4,1
+4435,Repetição Condicional,5,1
+4436,TP 02:  Est. Condicional Simples e Composta ,4,1
+4437,Lab 2 - Estrutura Condicional Composta,16,1
+4438,Ambientação,2,0
+4439,Ambientação,2,0
+4440,TP 01: Variáveis e Estrutura Sequencial,4,1
+4441,TP 01: Variáveis e Estrutura Sequencial,4,1
+4442,Extra 2 - Estrutura Condicional Composta,8,1
+4443,Introdução à linguagem DART,10,1
+4444,Strings,5,1
+4445,T01 - Primeiros passos,5,1
+4446,T01 - Primeiros passos,5,1
+4447,TP 01: Variáveis e Estrutura Sequencial,4,1
+4448,Teste,6,1
+4449,TP 01: Variáveis e Estrutura Sequencial,4,1
+4450,TP 01: Variáveis e Estrutura Sequencial,4,1
+4451,TP 01: Variáveis e Estrutura Sequencial,4,1
+4452,TP 01: Variáveis e Estrutura Sequencial,4,1
+4453,TP 01: Variáveis e Estrutura Sequencial,4,1
+4454,Repetição Contável,7,1
+4455,Lab 1.2 - Variáveis e Estrutura Sequencial,10,1
+4456,TP 01: Variáveis e Estrutura Sequencial,4,1
+4457,Lab 2 - Estrutura Condicional Composta - CARLOS,2,1
+4458,L05 - Comando de seleção e repetição,3,4
+4459,Lab 1 variáveis, ope., condicionais e repetição,10,9
+4460,Teste,5,1
+4461,Primeira Lista de Exercícios,20,1
+4462,Primeira Lista (Python),18,3
+4463,T02 - Segundos passos,4,1
+4464,T03 - Exercícios variados,4,1
+4465,Lista 2 - Estrutura Condicional,10,1
+4466,Repetição Aninhada,3,1
+4467,Lab 3 - Estrutura Condicional Encadeada,15,1
+4468,TP 03 – Condicionais Encadeadas (if/elif),4,1
+4469,Extra 3 - Condicionais Encadeados (if/elif),8,1
+4470,Lab 4 – Repetição por Condição (while),16,1
+4471,TP 04: Estrutura de Repetição por Condição,4,1
+4472,1a Lista. Segundo bloco de questões,6,1
+4473,1a Terceiro Bloco de exercícios,5,2
+4474,Vetor,4,1
+4475,Lab 2 - Estrutura Condicional Composta,2,1
+4476,Condicionais - Lista 01 ,10,1
+4477,Lab 2 - Estrutura Condicional Composta,16,1
+4478,Lista 01 - Entrada e saída,9,1
+4479,Lista 02 - Entrada e saída,10,1
+4481,Lab 2 - Estrutura Condicional Composta,16,1
+4482,Lab 2 - Estrutura Condicional Composta,16,1
+4483,Lab 2 – Estrutura Condicional - 2020,12,1
+4484,TP 01: Variáveis e Estrutura Sequencial,4,1
+4485,Lab 6 - Listas,11,1
+4486,Lab 7 - Dicionários,5,1
+4487,Lab 2 - Estrutura Condicional Composta,16,1
+4488,Exercícios de SQL envolvendo Joins,5,1
+4489,TP 02:  Est. Condicional Simples e Composta ,4,1
+4490,Lab 2 - Estrutura Condicional Composta,13,1
+4491,Ordenação,3,1
+4492,Lista de exercício - 1,13,1
+4493,TP 01: Variáveis e Estrutura Sequencial,4,1
+4494,Extra 2 - Estrutura Condicional Composta,8,1
+4495,Exercícios opcionais para estudar,7,0
+4496,Extra 2 - Estrutura Condicional Composta,8,1
+4497,Lista teste da Fernanda,3,1
+4498,Lab 2 - Estrutura Condicional Composta,16,1
+4499,Extra 2 - Estrutura Condicional Composta,8,1
+4500,Extra 2 - Estrutura Condicional Composta,7,1
+4501,Atividade Lab 1: Estruturas condicionais,5,1
+4502,Matriz,2,1
+4503,Lab Extra 2 - Estrutura Condicional Composta,7,1
+4504,Lab 2 - Estrutura Condicional Composta,13,1
+4505,Extra 2 - Estrutura Condicional Composta,7,1
+4506,Lab 2 - Estrutura Condicional Composta,13,1
+4507,Extra 2 - Estrutura Condicional Composta,7,1
+4508,Exercícios de SQL envolvendo Joins,3,1
+4509,Avaliação Parcial 1,4,1
+4510,Matriz 2,2,1
+4511,Lab 3 -  Condicional encadeada - CARLOS,2,1
+4512,Extra 2 - Estrutura Condicional Composta,7,1
+4513,Lab 2 - Estrutura Condicional Composta,16,1
+4514,Extra 2 - Estrutura Condicional Composta,8,1
+4515,Lab 2 - Estrutura Condicional Composta,16,1
+4516,Extra 2 - Estrutura Condicional Composta,8,1
+4517,Ciclos com for,12,1
+4518,Avaliação - Variáveis e Estrutura Sequencial,3,8
+4519,Exercícios de operações básicas e condicionais,10,1
+4520,Subrotinas e Funções,2,1
+4521,Introdução a linguagem Dart - Turma de Design,5,1
+4522,Lista 1 - Variáveis e Tipos de Dados,11,1
+4523,Lista 2 - Entradas e Saídas e Dados,9,1
+4524,Lista 1 - Variáveis e Tipos de Dados,11,1
+4525,Lista 1 - Variáveis e Tipos de Dados,11,1
+4526,TP 02:  Est. Condicional Simples e Composta ,4,1
+4527,Simulado 2 - Estrutura Condicional Composta,3,1
+4528,Lista 2 - Entradas e Saídas e Dados,9,1
+4529,T04 - Laços de repetição,5,1
+4530,T05 - Comando de seleção e repetição,3,1
+4531,Exercícios opcionais para estudar,7,1
+4532,Avaliação Parcial 1,71,1
+4533,Avaliação Parcial 1,14,1
+4534,Exercícios opcionais para estudar 2,5,0
+4535,TP 02:  Est. Condicional Simples e Composta ,4,1
+4536,TP 02:  Est. Condicional Simples e Composta ,4,1
+4537,TP 02:  Est. Condicional Simples e Composta ,4,1
+4538,Exercícios sobre estruturas de repetição,6,1
+4539,TP 02:  Est. Condicional Simples e Composta ,4,1
+4540,Lab 2 - Funções e Ponteiros,5,1
+4541,Lab 3 - Vetores e Matrizes,5,1
+4542,TP 02:  Est. Condicional Simples e Composta ,4,1
+4543,ListaMonitoria - Estruturas Condicionais,8,1
+4544,L06 - Ponteiros e funções,5,4
+4545,Exercícios opcionais para estudar 2,5,1
+4548,Lista 3 - Estruturas de Seleção Simples e Composta,14,1
+4549,Lista 5 - Estrutura Composta (IF-ELSE) e Aninhada,3,1
+4550,TP1 - Trabalho Prático 1,10,1
+4551,Lab 3 - Estrutura Condicional Encadeada,15,1
+4552,Primeira Avaliação de IC (Python),5,7
+4553,Lab 3 - Estrutura Condicional Encadeada,15,1
+4554,Extra 3 - Condicionais Encadeados (if/elif),8,1
+4555,Extra 3 - Condicionais Encadeados (if/elif),8,1
+4556,Lab 3 - Estrutura Condicional Encadeada,15,1
+4557,Avaliação - Var. e Est. Sequencial (2a chamada),3,1
+4559,Exercícios em Sala - Lab 3,4,1
+4560,Avaliação Substitutiva 1,4,0
+4561,TP 02:  Est. Condicional Simples e Composta ,3,1
+4562,TP 02:  Est. Condicional Simples e Composta ,4,1
+4563,Matrizes,5,2
+4564,Lab 3 - Estrutura Condicional Encadeada,15,1
+4565,Treino para Prova (L5),2,1
+4566,Extra 3 - Condicionais Encadeados (if/elif),8,1
+4567,Lab 3 - Estrutura Condicional Encadeada,15,1
+4568,Extra 3 - Condicionais Encadeados (if/elif),8,1
+4569,Lab 3 - Estrutura Condicional Encadeada,15,1
+4570,Extra 3 - Condicionais Encadeados (if/elif),8,1
+4571,Lab 3 - Estrutura Condicional Encadeada,15,1
+4572,Extra 3 - Condicionais Encadeados (if/elif),8,1
+4573,TP 02:  Est. Condicional Simples e Composta ,4,1
+4574,Lista 3 - Estruturas de Seleção Simples e Composta,14,1
+4575,teste,1,1
+4576,Primeira Prova de IP - 2022-2 (ano 2023),10,1
+4577,Avaliação 1,4,1
+4578,Extra 3 - Condicionais Encadeados (if/elif),8,1
+4579,Avaliação Substitutiva 1,17,1
+4580,L07 - Exercícios de fixação e "respescagem",6,2
+4581,ListaMonitoria3 - Vetores e Matrizes,8,1
+4582,Segunda Lista (Python),12,1
+4583,Segunda Lista de Exercícios,18,3
+4584,Lab 3 - Estrutura Condicional Encadeada,15,1
+4585,Extra 3 - Condicionais Encadeados (if/elif),8,1
+4586,L08 - Vetores,2,1
+4587,L08 - Laços e vetores,4,1
+4588,L08 - Vetores,3,4
+4589,ListaMonitoria2 - Laços de repetição e vetores,8,1
+4590,Simulado 3 - Condicionais Encadeados (if/elif),3,1
+4591,Lab 3 - Estrutura Condicional Encadeada,15,1
+4592,Extras 1 - Variáveis e Estrutura Sequencial (2020),11,1
+4593,Simulado 2 - Estrutura Condicional Composta,3,1
+4594,Lista 03 - Basico de Condicionais,10,1
+4595,Lista 04 - Condicionais,10,1
+4596,Lista 05 - Condicionais,10,1
+4597,Lista 05 - Condicionais,10,1
+4598,Lista 06 - Comando de repetição enquanto,10,1
+4599,Lista 07 - Comando de repetição for,10,1
+4600,Lista 08 - Vetores,6,1
+4601,Lista 09 - Mais Vetores!,10,1
+4602,Lab 2.1 - Estrutura de controle e de repetição,12,1
+4603,Prova 1,8,1
+4604,Lista de exercícios - 2,8,1
+4605,Lab 3 - Estrutura Condicional Encadeada,10,1
+4606,TP 03 – Condicionais Encadeadas (if/elif),4,1
+4607,TP 03 – Condicionais Encadeadas (if/elif),3,1
+4608,TP 03 – Condicionais Encadeadas (if/elif),4,1
+4609,TP 03 – Condicionais Encadeadas (if/elif),4,1
+4610,TP 03 – Condicionais Encadeadas (if/elif),4,1
+4611,Laços de repetição e vetores,8,1
+4612,L09 - Matrizes,5,4
+4613,Variáveis do tipo Lista ,4,1
+4614,TP 03 – Condicionais Encadeadas (if/elif),4,2
+4615, Recuperação - Variáveis e Estrutura Sequencial,3,1
+4616,TESTE,3,1
+4617,TP 03 – Condicionais Encadeadas (if/elif),4,1
+4618,Lab 4 (Alocação dinâmica e realloc),4,1
+4619,Lista de exercícios - 3,6,1
+4620,TP 02:  Est. Condicional Simples e Composta ,4,1
+4621,Experimento de Plágio,2,1
+4622,TP 03 – Condicionais Encadeadas (if/elif),4,1
+4623,TP 03 – Condicionais Encadeadas (if/elif),4,1
+4624,Lista 3 - Funções e Estruturas de Repetição,10,1
+4625,TP 03 – Condicionais Encadeadas (if/elif),4,1
+4626,TP 03 – Condicionais Encadeadas (if/elif),4,1
+4627,Segunda Prova de IP 2022-2 (2023),10,1
+4628,L10 - Funções, vetores e matrizes,5,4
+4629,Lab 4 – Repetição por Condição (while),16,1
+4630,Lab 4 – Repetição por Condição (while),16,1
+4631,Exercícios em Sala - Lab 4,5,1
+4632,TP 05: Vetores e Strings,6,1
+4633,Lab 5 - Vetores e Strings,14,1
+4634,Lab 4 – Repetição por Condição (while),16,1
+4635,Lab 4 – Repetição por Condição (while),16,1
+4636,Lab 4 – Repetição por Condição (while),16,1
+4637,TP 03 – Condicionais Encadeadas (if/elif),4,1
+4638,Lab 4 – Repetição por Condição (while),16,1
+4639,Exercícios opcionais para estudar 3,6,0
+4640,Lab 4 – Repetição por Condição (while),16,1
+4641,Lab 2.1 - Estrutura de controle e de repetição,12,1
+4642,L11 - Prática em programação,2,1
+4643,Listas,1,1
+4644,Lab 9 - Listas,2,1
+4645,ListaMonitoria4 - Structs,4,1
+4646,Extras 4 – Repetição por Condição (while) ,6,1
+4647,Extras 4 – Repetição por Condição (while) ,6,1
+4648,Extras 4 – Repetição por Condição (while) ,6,1
+4649,Extras 4 – Repetição por Condição (while) ,6,1
+4650,Ciclos com while,6,1
+4651,Extras 4 – Repetição por Condição (while) ,6,1
+4652,Lab 5 - Recursão,4,1
+4653,Lab 7 - Tipos Estruturados,4,1
+4654,Extras 4 – Repetição por Condição (while) ,6,1
+4655,Extras 4 – Repetição por Condição (while) ,6,1
+4656,Extras 4 – Repetição por Condição (while) ,6,1
+4657,Lista 10 - Recursão,10,1
+4658,Lista 11 - Matrizes,10,1
+4659,Lista 12 - Vetores e Matrizes,9,1
+4660,Tercerira Prova de IP 2022-2 (2023),10,1
+4661,Listas,1,1
+4662, Recuperação - Variáveis e Estrutura Sequencial,3,0
+4663,Segunda Avaliação de IC (Python),5,7
+4664,Lab 4 – Repetição por Condição (while),16,1
+4665,Extras 4 – Repetição por Condição (while) ,6,1
+4666,TP 04: Estrutura de Repetição por Condição,6,1
+4667,Programação não estruturada,5,4
+4668,L11 - Recursão,4,5
+4669,TP 04: Estrutura de Repetição por Condição,4,1
+4670,Segunda chamada da P1,4,0
+4671,TP 04: Estrutura de Repetição por Condição,4,1
+4672,TP 04: Estrutura de Repetição por Condição,4,1
+4673,TP 04: Estrutura de Repetição por Condição,4,1
+4674,Exercícios extras 2,5,1
+4675,TP 04: Estrutura de Repetição por Condição,4,1
+4676,TP 04: Estrutura de Repetição por Condição,4,1
+4677,TP 04: Estrutura de Repetição por Condição,4,2
+4678,TP 04: Estrutura de Repetição por Condição,4,1
+4679,Extras 4 – Repetição por Condição (while) ,6,1
+4680, Recuperação 2 - Variáveis e Estrutura Sequencial,3,1
+4681,Lab 4 - Estruturas de Repetição,16,1
+4682,TP 04: Estrutura de Repetição por Condição,4,1
+4683,Lab 4 – Repetição por Condição (while),16,1
+4684,Atividade Avaliativa A1,4,1
+4685,Lab 6 - Repetição por Contagem (for),10,1
+4686,Manipulação de Listas Encadeadas,2,1
+4687,Árvore ZigZag,1,1
+4688,Lab 4 - Estruturas de Repetição,16,1
+4690,Avaliação Parcial 2,9,1
+4691,Structs,5,1
+4692,T06 - Ponteiros e funções,5,1
+4693,T08 - Vetores,3,1
+4694,L09 - Matrizes,5,1
+4695,T10 - Funções, vetores e matrizes,5,1
+4696,T11 - Recursão,4,1
+4697,Lab 5 - Vetores e Strings,14,1
+4698,Lab 5 - Vetores e Strings,14,1
+4699,Lab 5 - Vetores e Strings,14,1
+4700,TP2 - Trabalho Prático 2,3,1
+4701,ListaMonitoria5 - Ponteiros e Funções,3,1
+4702,Avaliação Parcial 04 – Estrutura de Repetição,2,1
+4703,TP 04: Estrutura de Repetição por Condição,4,1
+4704,TP 04: Estrutura de Repetição por Condição,4,1
+4705,Lab 5 - Vetores e Strings,14,1
+4706,Lab 5 - Vetores e Strings,14,1
+4707,Prolog 1,4,3
+4708,TP 6: Estrutura de Repetição por Contagem (for),3,1
+4709,Vetor Dinamico,4,1
+4710,3. Laços, vetores e matrizes,6,1
+4711,Lab 5 - Vetores e Strings,14,1
+4712,Terceira Lista (Python),17,1
+4713,Avaliação Parcial 2,3,0
+4714,Aula - Ponteiros,4,1
+4715,Prática da avaliação parcial 2,13,1
+4716,Lab 5 - Vetores e Strings,14,1
+4717,Ponteiros - Exercícios de exemplo (Não valem nota),4,1
+4718,Lista de exercícios - 4,7,1
+4719,Desafios 5 - Vetores e Strings,8,1
+4720,Desafios 5 - Vetores e Strings,8,1
+4721,Extras 5 - Vetores e Strings,8,1
+4722,Desafios 5 - Vetores e Strings,8,1
+4723,2a chance prova 2,3,1
+4724,Desafios 5 - Vetores e Strings,8,1
+4725,Desafios 5 - Vetores e Strings,8,1
+4726,Desafios 5 - Vetores e Strings,8,1
+4727,Desafios 5 - Vetores e Strings,8,1
+4728,Lab 5 - Vetores e Strings,10,1
+4729,Quarta Prova de IP - 2022-2 (2023),10,1
+4730,Lista 13 - Matrizes (Mais um pouco!),5,1
+4731,Extra 5 - Vetores e Strings,8,1
+4732,Atividade Lab 2: Estruturas de repetição,4,1
+4733,Desafios 5 - Vetores e Strings,8,1
+4734,Extras 5 - Vetores e Strings,8,1
